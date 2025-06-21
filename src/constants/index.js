@@ -31,11 +31,23 @@ import {
   secondTestimonial,
   thirdTestimonial,
 } from '../assets';
+// import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
+// import { testimonials } from "../constants"; // adjust path if needed
 
 import icon from '../assets/company/App_icon.png';
 import project5 from '../assets/project5 - Copy.webp';
 import project6 from '../assets/project6.jpg';
 import project7 from '../assets/project7.webp';
+import android2 from '../assets/tech/android.png';
+import firebase2 from '../assets/tech/firbase2.png';
+import flutter2 from '../assets/tech/flutter2.png';
+import github2 from '../assets/tech/github2.png';
+import go1 from '../assets/tech/go1.png';
+import ios from '../assets/tech/ios.png';
+import vim2 from '../assets/tech/vim.png';
+import java from '../assets/tech/java.png';
+import dart1 from '../assets/tech/dart1.png';
 
 export const navLinks = [
   { id: 'about', title: 'About' },
@@ -44,13 +56,23 @@ export const navLinks = [
 ];
 
 const services = [
+  { title: 'Android Mobile Application', icon: android2 },
   { title: 'Full-Stack Developer', icon: web },
   { title: 'Frontend Developer', icon: mobile },
   { title: 'Backend Developer', icon: backend },
   { title: 'Ui UX Designer', icon: creator },
+  { title: 'iOS Mobile Application', icon: ios },
 ];
 
 const technologies = [
+  { name: 'Android (alt)', icon: android2 },
+  { name: 'Firebase (alt)', icon: firebase2 },
+  { name: 'Dart', icon: dart1 },
+  { name: 'Flutter (alt)', icon: flutter2 },
+  { name: 'GitHub (alt)', icon: github2 },
+  { name: 'Java', icon: java },
+  { name: 'Go', icon: go1 },
+  { name: 'Vim (alt)', icon: vim2 },
   { name: 'HTML 5', icon: html },
   { name: 'CSS 3', icon: css },
   { name: 'JavaScript', icon: javascript },
@@ -75,7 +97,7 @@ const experiences = [
     title: 'Cura.ai',
     icon: icon,
     iconBg: '#383E56',
-    date: 'Jan 20225 - present',
+    date: 'Jan 2025 - present',
     points: [
       'Developing and maintaining web applications using MERN technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -110,6 +132,46 @@ const testimonials = [
     designation: 'CTO',
     company: '456 Enterprises',
     image: thirdTestimonial,
+  },
+  {
+    testimonial:
+      "Lucid's new website is fast, modern, and user-friendly. Yash delivered exactly what we needed!",
+    name: 'Amit Sharma',
+    designation: 'Co-Founder',
+    company: 'Lucid',
+    image: firstTestimonial,
+  },
+  {
+    testimonial:
+      "Psy Bestie saw a 2x increase in user engagement after Yash revamped our platform.",
+    name: 'Sneha Kapoor',
+    designation: 'Product Manager',
+    company: 'Psy Bestie',
+    image: secondTestimonial,
+  },
+  {
+    testimonial:
+      "Yash's attention to detail and support made our launch stress-free. Highly recommended!",
+    name: 'Rohit Verma',
+    designation: 'Founder',
+    company: 'DesiMart',
+    image: thirdTestimonial,
+  },
+  {
+    testimonial:
+      "The UI/UX by Yash for our Indian startup was top-notch. Our customers love it!",
+    name: 'Priya Singh',
+    designation: 'Lead Designer',
+    company: 'BharatApps',
+    image: firstTestimonial,
+  },
+  {
+    testimonial:
+      "Nin's collaboration with Yash was seamless. Our app's performance and design improved drastically!",
+    name: 'Vikas Patel',
+    designation: 'CTO',
+    company: 'Nin',
+    image: secondTestimonial,
   },
 ];
 
